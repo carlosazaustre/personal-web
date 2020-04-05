@@ -1,0 +1,215 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+body {
+    margin: 0;
+    left:0;
+    right:0;
+}
+
+body {
+    background:#d9d9d9;
+    font-family: Sans-serif;
+    text-align:center;
+}
+main {
+    background:#f2f2f2;
+    width:90%
+    max-width:1000px;
+    margin: 20px auto;
+}
+
+footer {
+    background:#42403F;
+    width:90%
+    max-width:1000px;
+    margin: 5px auto;
+    padding: 1px;
+    color:white;
+}
+
+header {
+    width:100%;
+    margin: 0px 0px;
+    padding: 5px;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index:100;
+    background:#42403F;
+    
+}
+header nav {
+    width:100%;
+    background:#42403F;
+    overflow:hidden;
+}
+
+header nav ul { /*.menu*/
+    leave-style:none;
+        width:100%;
+    background:#42403F;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+header nav ul li {
+    margin:0px 1px;
+    float:center;
+    display:inline-block;
+}
+
+header nav li a:hover {
+    background:#ccc;
+    cursor:pointer;
+}
+
+header nav li a, headernav li a.link {
+    padding: 10px 80px;
+    display:inline-block;
+    text-decoration:none;
+    background:#42403F;
+    color:white;
+    
+}
+
+table {
+    margin:auto;
+    border: 1px solid black;
+    border-collapse:collapse;
+    table-style: center;
+}
+table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+a:hover {
+    text-decoration:underline;
+     cursor:pointer;
+}
+
+
+div {
+    margin: 10px 0px;
+    background:white;
+    padding:30px;
+}
+
+div h2 {
+    padding-top:30px;
+}
+
+.Inicio {
+    top:0;
+    background-image:url(C:/Users/alexm/OneDrive/Documentos/hackfromhome/imagenes/inicio.png);
+    width: 95.5%;
+    height: 90vh;
+    padding-top: 50px;
+      /*  position: absolute;*/
+      text-family: Courier;
+      color:#f2f2f2;
+          display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Inicio h1 {
+    font-size: 50px;
+}
+
+.Inicio p {
+    font-size: 30px;
+}
+.fotos {
+    padding-top: 100px;
+    width:40%  
+    float:left;
+}
+
+.fotos img {
+    display:block;
+    width:300px;
+    height:auto;
+    margin: 14px;
+    border-radius:5px;
+}
+
+.CV{
+    width: 60%;
+    float:left;
+}
+.CV ul {
+    text-align:left;
+    font-size: 20px;
+}
+
+.CV ul li{
+    font-size:15px;
+}
+
+.Eventos{
+    background-image:url(C:/Users/alexm/OneDrive/Documentos/hackfromhome/imagenes/fondoevento.png);
+}
+
+.Eventos tr td {
+    text-decoration:bold;
+    color:white;
+    font-size: 25px;
+    height: 40px;
+}
+
+.Eventos tr td a {
+    color:#3399ff;
+}
+
+.Contact img {
+    width: 55px;
+    height:auto;
+    display:inline-block;
+    border-radius:10%;
+    margin:5px;
+}
+
+form {
+    width:50%;
+    border: 1px solid #ccc;
+    margin:auto;
+    padding: 20px;
+}
+
+label {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    
+}
+
+
+textarea, input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input:focus,textarea:focus {
+    border: 1px blue;
+}
+
+input[type="submit"] {
+    margin-bottom:10px;
+    background: #3399ff;
+}
+
+input[type="submit"]:hover {
+    background: #0066ff;
+    cursor:pointer;
+}
+
+input[type="submit"]:active {
+    background: #CCC;
+}
