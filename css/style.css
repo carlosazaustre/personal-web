@@ -102,7 +102,7 @@ div h2 {
 
 .Inicio {
     top:0;
-    background-image:url(hackfromhome/imagenes/inicio.png);
+    background-image:url(imagenes/inicio.png);
     width: 95.5%;
     height: 90vh;
     padding-top: 50px;
@@ -150,7 +150,7 @@ div h2 {
 }
 
 .Eventos{
-    background-image:url(hackfromhome/imagenes/fondoevento.png);
+    background-image:url(imagenes/fondoevento.png);
 }
 
 .Eventos tr td {
