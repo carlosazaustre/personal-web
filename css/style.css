@@ -124,8 +124,9 @@ div h2 {
 }
 .fotos {
     padding-top: 100px;
-    width:40%  
+    width:40%;
     float:left;
+    height:1300px;
 }
 
 .fotos img {
@@ -139,6 +140,7 @@ div h2 {
 .CV{
     width: 60%;
     float:left;
+    height:1300px;
 }
 .CV ul {
     text-align:left;
