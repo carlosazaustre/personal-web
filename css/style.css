@@ -155,6 +155,16 @@ div h2 {
     background-image:url(hackfromhome/imagenes/fondoevento.png);
 }
 
+.Eventos table {
+    border: 2px solid #b3b3b3;
+}
+.Eventos tr, .Eventos tr td {
+    text-decoration:bold;
+    color:white;
+    font-size: 25px;
+    height: 40px;
+}
+
 .Eventos tr td {
     text-decoration:bold;
     color:white;
