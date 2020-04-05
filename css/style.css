@@ -102,7 +102,7 @@ div h2 {
 
 .Inicio {
     top:0;
-    background-image:url(imagenes/inicio.png);
+    background:url(imagenes/inicio.png);
     width: 95.5%;
     height: 90vh;
     padding-top: 50px;
