@@ -163,6 +163,8 @@ div h2 {
     color:white;
     font-size: 25px;
     height: 40px;
+    border: 2px solid #b3b3b3;
+    background:#FFFFFF80;
 }
 
 .Eventos tr td {
