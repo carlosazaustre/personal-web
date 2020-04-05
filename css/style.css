@@ -102,7 +102,7 @@ div h2 {
 
 .Inicio {
     top:0;
-    background-image:url(hackfromhome/imagenes/inicio.png);
+    background-image:url(C:/Users/alexm/OneDrive/Documentos/hackfromhome/imagenes/inicio.png);
     width: 95.5%;
     height: 90vh;
     padding-top: 50px;
@@ -124,9 +124,8 @@ div h2 {
 }
 .fotos {
     padding-top: 100px;
-    width:40%;
+    width:40%  
     float:left;
-    height:1300px;
 }
 
 .fotos img {
@@ -140,7 +139,6 @@ div h2 {
 .CV{
     width: 60%;
     float:left;
-    height:1300px;
 }
 .CV ul {
     text-align:left;
@@ -152,7 +150,7 @@ div h2 {
 }
 
 .Eventos{
-    background-image:url(hackfromhome/imagenes/fondoevento.png);
+    background-image:url(C:/Users/alexm/OneDrive/Documentos/hackfromhome/imagenes/fondoevento.png);
 }
 
 .Eventos tr td {
