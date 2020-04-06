@@ -6,13 +6,17 @@ body {
 }
 
 @font-face {
-  font-family: "Quicksand-Regular";
-  src: url("fonts/Quicksand-Regular.ttf");
+    font-family: 'ralewaylight';
+    src: url('fonts/webfontwit/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/webfontwit/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
     background:#d9d9d9;
-    font-family: "Quicksand-Regular";
+    font-family: "ralewaylight";
     text-align:center;
 }
 
