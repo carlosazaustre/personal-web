@@ -12,5 +12,4 @@ $headers = "From: $email";
 
 mail($myemail, $email_subject, $email_body, $headers);
 echo "El mensaje se ha enviado correctamente";
-echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
 ?>
