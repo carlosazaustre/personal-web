@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: 'Quicksand-Regular';
-    src: url('personal-web/fonts/Quicksand-Regular.ttf') format('truetype');
+    src: url('Quicksand-Regular.ttf') format('truetype');
         /* format('woff2'),
          url('fonts/webfontkit/raleway-light-webfont.woff') format('woff');
     font-weight: normal;
