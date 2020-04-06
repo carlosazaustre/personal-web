@@ -5,9 +5,14 @@ body {
     right:0;
 }
 
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("fonts/Quicksand-Regular.ttf");
+}
+
 body {
     background:#d9d9d9;
-    font-family: Sans-serif;
+    font-family: Quicksand-Regular;
     text-align:center;
 }
 main {
