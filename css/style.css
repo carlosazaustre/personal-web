@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: 'ralewaylight';
-    src: url('fonts/webfontkit/raleway-light-webfont.woff2')
+    src: url('fonts/webfontkit/raleway-light-webfont.woff2');
         /* format('woff2'),
          url('fonts/webfontkit/raleway-light-webfont.woff') format('woff');
     font-weight: normal;
