@@ -6,8 +6,8 @@ body {
 }
 
 @font-face {
-    font-family: Quicksand-Regular;
-    src: url(fonts/Quicksand-Regular.ttf) format("truetype");
+    font-family: 'Quicksand-Regular';
+    src: url('fonts/Quicksand-Regular.ttf') format('truetype');
         /* format('woff2'),
          url('fonts/webfontkit/raleway-light-webfont.woff') format('woff');
     font-weight: normal;
@@ -17,7 +17,7 @@ body {
 
 body {
     background:#d9d9d9;
-    font-family: Quicksand-Regular;
+    font-family: 'Quicksand-Regular';
     text-align:center;
 }
 
