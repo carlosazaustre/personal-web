@@ -144,24 +144,24 @@
 	</tbody>
 </table>
 </div>
-	
 <div id="Contact" class="Contact">
 <h2>Contacto</h2>
 
 <h4>Quieres contarme para algun evento, charla proyecto... puedes hacerlo aqui</h4>
+<!-- @TODO - validation -->
+<form id="cont">
+<p><label>Nombre:</label>
+<input name="nombre" id="nombre" type="text" /></p>
+<p><label>Tu correo electrónico:</label>
+<input name="email" id ="email" type="text" /></p>
+<p><label>asunto:</label>
+<input name="asunto" id="asunto" type="text" /></p>
+<p><labe>mensaje:</label>
+<textarea name="msg" id="msg"></textarea></p>
 
-<form action="envio.php" method="post" enctype="text/plain">
-<label for="nombre">Nombre:</label>
-<input name="nombre" type="text" />
-<label for="email">Tu correo electrónico:</label>
-<input name="email" type="text" />
-<label for="asunto">asunto:</label>
-<input name="asunto" type="text" />
-<label for="msg">mensaje:</label>
-<textarea name="msg"></textarea>
-
-<input type="submit" value="Enviar" />
+<button type="submit" Enviar> </button>
 </form>
+
 
     <a href="https://www.linkedin.com/in/alexandre-alemany-529682138/"><img alt="Baia..." height="50" src="hackfromhome/imagenes/linkedin.png" width="50" /></a>
     <a href="https://twitter.com/Alex_ao8"><img alt="Baia..." height="50" src="hackfromhome/imagenes/twitter.png" width="50" /></a>
@@ -171,5 +171,13 @@
 </main>
 <footer>
     <p>Página web de Alex alemany · alexandre.alemany8@gmail.com · GDG Menorca</p>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+<script src="/__/firebase/init.js"></script>
+<script src="envio.js"></script>
 </body>
 </html>
