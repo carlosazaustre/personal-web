@@ -138,7 +138,7 @@ div h2 {
     padding-top: 100px;
     width:40%  
     float:left;
-    height: 900px;
+    height:900px;
 }
 
 .fotos img {
@@ -175,15 +175,15 @@ div h2 {
 .Eventos table {
     border: 2px solid #b3b3b3;
 }
-
 .Eventos tr, .Eventos tr td {
     text-decoration:bold;
     color:white;
     font-size: 25px;
     height: 40px;
     border: 2px solid #b3b3b3;
-    background: #FFFFFF80;
+    background:#FFFFFF80;
 }
+
 
 .Eventos tr td a {
     color:#3399ff;
